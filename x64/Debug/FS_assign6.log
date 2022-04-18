@@ -1,0 +1,28 @@
+﻿  simpind.cpp
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.h(19,14): error C2061: 구문 오류: 식별자 'ostream'
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.h(34): message : 컴파일되는 클래스 템플릿 인스턴스화 'SimpleIndex<keyType>'에 대한 참조를 확인하세요.
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.h(30,26): error C3856: 'IndexBuffer': 기호가 클래스 템플릿이(가) 아닙니다.
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.h(30,1): error C2098: 데이터 멤버 'keyType' 뒤에 예기치 않은 토큰이 있습니다.
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.h(30,34): error C2059: 구문 오류: '>'
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.cpp(71,1): error C2244: 'SimpleIndex<keyType>::Print': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.cpp(70): message : 'SimpleIndex<keyType>::Print' 선언을 참조하십시오.
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.cpp(71,1): message : 정의
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.cpp(71,1): message : 'void SimpleIndex<keyType>::Print(std::ostream &) const'
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.cpp(71,1): message : 기존 선언
+C:\Users\juhye\Documents\GitHub\FS_assign6\simpind.cpp(71,1): message : 'void SimpleIndex<keyType>::Print(void) const'
+  testIndexedFile.cpp
+C:\Users\juhye\Documents\GitHub\FS_assign6\indfile.h(51,22): error C2039: 'Key': 'Student'의 멤버가 아닙니다.
+C:\Users\juhye\Documents\GitHub\FS_assign6\student.h(7): message : 'Student' 선언을 참조하십시오.
+C:\Users\juhye\Documents\GitHub\FS_assign6\indfile.h(50): message : 클래스 템플릿 멤버 함수 'int TextIndexedFile<Student>::Append(const RecType &)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              RecType=Student
+          ]
+C:\Users\juhye\Documents\GitHub\FS_assign6\testIndexedFile.cpp(79): message : 컴파일되는 함수 템플릿 인스턴스화 'int TextIndexedFile<Student>::Append(const RecType &)'에 대한 참조를 확인하세요.
+          with
+          [
+              RecType=Student
+          ]
+C:\Users\juhye\Documents\GitHub\FS_assign6\testIndexedFile.cpp(61): message : 컴파일되는 클래스 템플릿 인스턴스화 'TextIndexedFile<Student>'에 대한 참조를 확인하세요.
+  varlen.cpp
+  코드를 생성하고 있습니다...
